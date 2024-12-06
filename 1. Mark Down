@@ -1,0 +1,63 @@
+Here are some commonly used Markdown shortcuts for formatting text:
+
+### **Text Formatting**
+| Format            | Markdown Syntax           | Example                     | Result                 |
+|--------------------|---------------------------|-----------------------------|------------------------|
+| Bold              | `**text**` or `__text__` | **`**Bold**`**             | **Bold**              |
+| Italics           | `*text*` or `_text_`     | *`*Italic*`*               | *Italic*              |
+| Strikethrough     | `~~text~~`               | `~~Strikethrough~~`        | ~~Strikethrough~~     |
+
+---
+
+### **Headings**
+| Heading Level | Markdown Syntax  | Example                | Result               |
+|---------------|------------------|------------------------|----------------------|
+| H1            | `# text`         | `# Heading 1`         | # Heading 1          |
+| H2            | `## text`        | `## Heading 2`        | ## Heading 2         |
+| H3            | `### text`       | `### Heading 3`       | ### Heading 3        |
+
+*(Add more `#` for deeper headings up to H6.)*
+
+---
+
+### **Lists**
+| Type       | Markdown Syntax                      | Example                              | Result                            |
+|------------|--------------------------------------|--------------------------------------|-----------------------------------|
+| Unordered  | `-` or `*` or `+`                   | `- Item` or `* Item`                | - Item                           |
+| Ordered    | `1.`, `2.`, etc.                    | `1. First Item`                     | 1. First Item                    |
+| Sub-list   | Indent with 2 spaces under parent   | `- Parent`<br> `  - Child`          | - Parent<br> &nbsp;&nbsp;- Child |
+
+---
+
+### **Links and Images**
+| Type        | Markdown Syntax                                      | Example                                            | Result                          |
+|-------------|------------------------------------------------------|--------------------------------------------------|---------------------------------|
+| Hyperlink   | `[text](URL)`                                       | `[OpenAI](https://openai.com)`                   | [OpenAI](https://openai.com)   |
+| Image       | `![alt text](image URL)`                            | `![Logo](https://openai.com/logo.png)`           | ![Logo](https://openai.com/logo.png) |
+
+---
+
+### **Code**
+| Type           | Markdown Syntax           | Example                       | Result                    |
+|-----------------|---------------------------|-------------------------------|---------------------------|
+| Inline Code     | `` `code` ``             | `` `print("Hello")` ``        | `print("Hello")`          |
+| Code Block      | ```` ```language ``` ```` | ```` ```python\nprint() ``` `` | ```python
+print() ``` |
+
+---
+
+### **Blockquotes**
+| Markdown Syntax      | Example            | Result                 |
+|-----------------------|--------------------|------------------------|
+| `> text`             | `> Blockquote`    | > Blockquote          |
+
+---
+
+### **Horizontal Line**
+| Markdown Syntax | Result       |
+|------------------|--------------|
+| `---` or `***`   | Horizontal Line |
+
+---
+
+Would you like a detailed guide or help with a specific case?
