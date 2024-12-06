@@ -1,0 +1,53 @@
+# Git and Github for beginners 
+
+# Common Git command
+git clone -> bring a repository on github e.g. proj3 into a folder on your local machine 
+git add -> track file and changes in git 
+git commit -> save your file in git 
+git push -> upload to a remote repo, e.g. github 
+git pull -> download changes from github to your local machine 
+
+
+
+# Create a folder locally - link to github repository 
+
+1.	Create a folder in the folder git – called proj4
+
+2.	Termnimal – move into proj4 folder 
+**cd ../proj4**
+
+3.	Add a file in proj4 
+README.md 
+
+4.	Turn the file into a git repository 
+**git init**
+ 
+5.	Clear above text 
+Clear 
+
+6.	Check files 
+**git status**
+Untracked files: README.md
+
+7.	Add the file and check status 
+git add README.md
+git status 
+
+8.	Commit the file into git 
+**git commit -m “add README.md file” -m “Some descriptions”**
+
+9.	Push the commit to git hub 
+Create a repository in github, name it proj4 
+Copy the SSH link 
+
+10.	Back to VSC Terminal / clone the repository 
+**git remote add origin git@github.com:ChloeChen003/proj4.git **
+
+11.	Check the repository 
+**git remote -v **
+
+12.	Push the origin
+**git push origin master **
+
+or I can set up “up stream” = default 
+git push -u origin master 
